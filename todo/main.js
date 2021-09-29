@@ -58,7 +58,7 @@ function addTodo(e){
     if (item.classList[0] == 'complete-btn')
     {
       const bigItem = item.parentElement;
-      bigItem.classList.add('completed');
+      bigItem.classList.toggle('completed');
     }
     if (item.classList[0] == 'edit-btn')
     {
