@@ -164,6 +164,11 @@
   user-select: none;
   pointer-events: none;
 }
+.complete-btn{
+  opacity: 1!important;
+  user-select: all !important;
+  pointer-events: auto !important;
+}
 .edited .todo input[type="text"] 
 {
   opacity: 1;
